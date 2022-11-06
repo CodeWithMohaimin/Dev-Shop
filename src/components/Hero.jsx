@@ -5,11 +5,47 @@ import Learning from '../learning.json'
 
 const Hero = () => {
     return (
-        <section className='bg-hero-background bg-no-repeat bg-center h-screen flex justify-center items-center'>
-            <div className=' mt-4 flex justify-center lg:justify-between flex-col-reverse lg:flex-row gap-8 items-center max-w-7xl mx-auto p-1 lg:p-2 '>
-                <div className='text-center lg:text-left max-w-lg w-full'>
+        <section
+            className='
+            bg-hero-background 
+            bg-no-repeat
+            bg-center 
+            h-screen 
+            flex 
+            justify-center 
+            items-center'>
+            
+            <div
+                className='
+                mt-4
+                mx-auto
+                max-w-7xl
+                p-1
+                lg:p-2
+                flex justify-center lg:justify-between flex-col-reverse lg:flex-row gap-8 items-center'>
+                
+                <div
+                    className='
+                    text-center 
+                    lg:text-left 
+                    max-w-lg 
+                    w-full'>
 
-                    <h1 className='text-3xl lg:text-4xl font-semibold mb-6 text-gray-600'><span className=' text-6xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-teal-500'>Dev. Shop</span> <br /> for developer's to solve their Problems</h1>
+                    <h1 
+                        className='
+                        text-3xl 
+                        lg:text-4xl 
+                        font-semibold 
+                        mb-6 
+                        text-gray-600'>
+                        <span
+                            className='
+                            text-6xl 
+                            text-transparent 
+                            bg-clip-text 
+                            bg-gradient-to-r 
+                            from-pink-400 
+                            to-teal-500'>Dev. Shop</span><br /> for developer's to solve their Problems</h1>
 
                     <p className='text-gray-500 font-medium text-lg'>Here you find many kinds of Navbar, Cards and Images for Developer uses. Here you get all source code for develop Navbar, Cards and much more. Don't just copy and past those codes, But also try to Understand those codes.</p>
                     
