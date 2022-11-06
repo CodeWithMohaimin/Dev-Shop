@@ -1,8 +1,16 @@
 import React from "react";
+
+//Components
+import Hero from "./components/Hero";
+
+
+
+
+
 function App() {
   return (
     <div>
-      <h1 className="text-red-400">Hello Programmers</h1>
+      <Hero />
     </div>
   );
 }
