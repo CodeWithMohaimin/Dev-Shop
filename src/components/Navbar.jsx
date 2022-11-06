@@ -1,6 +1,5 @@
-import React from 'react'
+import React from "react";
 // import logo from '../image/ode.svg'
-
 
 const Navbar = () => {
   return (
@@ -9,11 +8,9 @@ const Navbar = () => {
         
       </div> */}
 
-      <div>
-     
-      </div>
+      <div></div>
     </section>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
