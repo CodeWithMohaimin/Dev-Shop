@@ -1,5 +1,4 @@
 import React from "react";
-
 import Lottie from "lottie-react";
 import Learning from "../lottie-json/learning.json";
 import Markets from "./Markets";
@@ -7,7 +6,7 @@ import Markets from "./Markets";
 const Hero = () => {
   return (
     <div>
-      <section className="min-h-screen relative bg-hero-background bg-contain pb-6">
+      <section className="min-h-screen relative bg-hero-background bg-contain pb-6 lg:px-6">
         <div className="mt-4 mx-auto max-w-7xl p-1 lg:p-2 flex lg:justify-between flex-col-reverse lg:flex-row g items-center">
           <div className="text-center lg:text-left max-w-lg w-full">
             <h1 className="text-3xl lg:text-4xl font-semibold mb-6 text-gray-600">

@@ -2,13 +2,10 @@ import React from "react";
 import { useState } from "react";
 import Lottie from "lottie-react";
 import logo from "../lottie-json/logo.json";
-
 import { Link } from "react-router-dom";
-
-// import { VscMenu } from "react-icons/vsc";
-// import { VscClose } from "react-icons/vsc";
 import menu from "../image/menu-icon.svg";
 import close from "../image/close-icon.svg";
+import { FaMoon } from "react-icons/fa";
 
 const Links = [
   { name: "Home", link: "/" },
@@ -51,6 +48,7 @@ const Navbar = () => {
           </ul>
         </div>
 
+        <FaMoon className="text-3xl text-pink-500 cursor-pointer" />
         <div className="sm:hidden pr-4 cursor-pointer inline">
           <img
             src={toggle ? close : menu}

@@ -8,6 +8,7 @@ import Navbars from "./components/Navbars";
 import Cards from "./components/Cards";
 import Error from "./components/Error";
 import Images from "./components/Images";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/images" element={<Images />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

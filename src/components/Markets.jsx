@@ -10,7 +10,7 @@ const Markets = () => {
   return (
     <section className="bg-market mt-4">
       <div className="flex justify-center items-center px-2 min-h-30 bg-transparent">
-        <h1 className="text-center capitalize text-4xl sm:text-6xl font-semibold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 border-b-2 border-purple-100 pb-2">
+        <h1 className="text-center capitalize text-4xl sm:text-6xl font-semibold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 md:border-b-2 border-purple-100 pb-2">
           Welcome To
           <span className="text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-orange-300 pl-2">
             Dev. Market
