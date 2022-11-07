@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 // import { VscMenu } from "react-icons/vsc";
 // import { VscClose } from "react-icons/vsc";
-
 import menu from "../image/menu-icon.svg";
 import close from "../image/close-icon.svg";
 
@@ -21,7 +20,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <section className="shadow-md w-full">
+    <section className="shadow-md w-full bg-star">
       <div className="max-w-7xl mx-auto sm:px-4 bg-transparent flex items-center justify-between ">
         <div className="flex items-center">
           <Lottie className="w-20 h-20" animationData={logo} />
@@ -31,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={` absolute sm:static top-20 bg-pink-200 sm:bg-transparent sm:w-auto w-full sm:pl-0 text-center sm:py-0 z-10 sm:shadow-none shadow-lg`}
+          className={` absolute sm:static top-20 bg-star bg-cover bg-pink-50 sm:bg-transparent sm:w-auto w-full sm:pl-0 text-center sm:py-0 z-10 sm:shadow-none shadow-lg`}
         >
           <ul
             className={`${
