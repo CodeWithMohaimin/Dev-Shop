@@ -32,10 +32,13 @@ const Hero = () => {
             <Lottie className="" animationData={Learning} />
           </div>
         </div>
+        <MessengerCustomerChat
+          pageId="102306715670926"
+          appId="458066343080622"
+        />
+        ,
       </section>
       <Markets />
-      <MessengerCustomerChat pageId="102306715670926" appId="458066343080622" />
-      ,
     </div>
   );
 };
