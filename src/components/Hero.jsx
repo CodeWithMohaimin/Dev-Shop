@@ -29,7 +29,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="w-full">
-            <Lottie className="" animationData={Learning} />
+            <Lottie animationData={Learning} />
           </div>
         </div>
         <MessengerCustomerChat
