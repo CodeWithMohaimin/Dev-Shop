@@ -18,7 +18,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <section className="shadow-md w-full bg-star">
+    <section className="sticky z-50 bg-pink-100 top-0 shadow-md w-full bg-star">
       <div className="max-w-7xl mx-auto sm:px-4 bg-transparent flex items-center justify-between ">
         <div className="flex items-center">
           <Lottie className="w-20 h-20" animationData={logo} />
