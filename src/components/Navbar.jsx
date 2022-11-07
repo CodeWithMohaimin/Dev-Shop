@@ -21,7 +21,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <section className="shadow-md static top-0 left-0">
+    <section className="shadow-md w-full">
       <div className="max-w-7xl mx-auto sm:px-4 bg-transparent flex items-center justify-between ">
         <div className="flex items-center">
           <Lottie className="w-20 h-20" animationData={logo} />
@@ -59,11 +59,6 @@ const Navbar = () => {
             onClick={() => setToggle((prev) => !prev)}
           />
         </div>
-
-        {/* <div className="sm:hidden pr-4">
-          <VscClose className="sm:none cursor-pointer text-3xl" />
-          <VscMenu className="sm:none cursor-pointer text-3xl" />
-        </div> */}
       </div>
     </section>
   );
