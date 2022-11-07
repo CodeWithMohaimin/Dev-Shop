@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         "hero-background": "url('/src/image/background-image.png')",
       },
+      minHeight: {
+        60: "80vh",
+      },
     },
   },
   plugins: [],
