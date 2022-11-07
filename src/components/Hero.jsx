@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
       </section>
       <Markets />
-      <MessengerCustomerChat pageId="100069186221784" appId="487326113363644" />
+      <MessengerCustomerChat pageId="102306715670926" appId="487326113363644" />
       ,
     </div>
   );
