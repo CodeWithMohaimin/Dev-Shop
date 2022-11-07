@@ -2,6 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import Learning from "../lottie-json/learning.json";
 import Markets from "./Markets";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Hero = () => {
   return (
@@ -32,8 +33,9 @@ const Hero = () => {
           </div>
         </div>
       </section>
-
       <Markets />
+      <MessengerCustomerChat pageId="102306715670926" appId="487326113363644" />
+      ,
     </div>
   );
 };
