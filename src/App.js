@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Navbars from "./components/Navbars";
 import Cards from "./components/Cards";
 import Error from "./components/Error";
+import Images from "./components/Images";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/home" element={<Hero />} />
         <Route path="/navbars" element={<Navbars />} />
         <Route path="/cards" element={<Cards />} />
-        <Route path="/card" element={<Cards />} />
+        <Route path="/images" element={<Images />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

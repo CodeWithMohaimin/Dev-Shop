@@ -14,6 +14,7 @@ const Links = [
   { name: "Home", link: "/" },
   { name: "Navbars", link: "/navbars" },
   { name: "Cards", link: "/cards" },
+  { name: "Images", link: "/images" },
 ];
 
 const Navbar = () => {
