@@ -1,0 +1,29 @@
+[
+  {
+    "cardImage": "images/image-section.png",
+    "title": "Navbar",
+    "oneText": "Here The main Market place for developer's. It's called",
+    "colorText": "Dev. Nav",
+    "lastText": "A navigation bar is a navigation header that is placed at the top of the page",
+    "navigateValueReact": "/threeNavbarReact",
+    "navigateValueHtml": "/threeNavbarHtml"
+  },
+  {
+    "cardImage": "images/card-section.png",
+    "title": "Cards",
+    "oneText": "Here The main Market place for developer's. It's called",
+    "colorText": "Dev. Nav",
+    "lastText": "A navigation bar is a navigation header that is placed at the top of the page",
+    "navigateValueReact": "/threeNavbarReact",
+    "navigateValueHtml": "/threeNavbarHtml"
+  },
+  {
+    "cardImage": "images/image-section.png",
+    "title": "Images",
+    "oneText": "Here The main Market place for developer's. It's called",
+    "colorText": "Dev. Nav",
+    "lastText": "A navigation bar is a navigation header that is placed at the top of the page",
+    "navigateValueReact": "/threeNavbarReact",
+    "navigateValueHtml": "/threeNavbarHtml"
+  }
+]

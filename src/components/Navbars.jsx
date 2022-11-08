@@ -36,7 +36,7 @@ const Navbars = () => {
                   {cardInfo.title} {index + 1}
                 </h1>
 
-                <p className="text-lg text-gray-500 p-6">
+                <p className="text-lg text-gray-500 p-6 tracking-normal">
                   {cardInfo.oneText}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-200 px-2">
                     {cardInfo.colorText}
@@ -47,19 +47,20 @@ const Navbars = () => {
                 <div>
                   <button
                     onClick={() => {
-                      navigate(cardInfo.navigateValueReact);
-                    }}
-                    className="m-1 bg-star px-8 py-2 text-gray-600 font-semibold text-1xl rounded-full bg-pink-500 hover:bg-pink-400 transition-colors hover:text-pink-50 tracking-wide"
-                  >
-                    React
-                  </button>
-                  <button
-                    onClick={() => {
                       navigate(cardInfo.navigateValueHtml);
                     }}
                     className="m-1 bg-star px-8 py-2 text-gray-600 font-semibold text-1xl rounded-full bg-pink-500 hover:bg-pink-400 transition-colors hover:text-pink-50 tracking-wide"
                   >
                     HTML & CSS
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      navigate(cardInfo.navigateValueReact);
+                    }}
+                    className="m-1 bg-star px-8 py-2 text-gray-600 font-semibold text-1xl rounded-full bg-pink-500 hover:bg-pink-400 transition-colors hover:text-pink-50 tracking-wide"
+                  >
+                    React & Tailwind
                   </button>
                 </div>
               </div>
