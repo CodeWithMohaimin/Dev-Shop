@@ -1,63 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import navbarImage from "../image/image-section.png";
+
+import CardInfo from "../Data/NavbarData.json";
 
 const Navbars = () => {
   const navigate = useNavigate();
 
-  // Card Data -------------->
-  const CardInfo = [
-    {
-      cardImage: navbarImage,
-      title: "Navbar",
-      oneText: "Here The main Market place for developer's. It's called",
-      colorText: "Dev. Nav",
-      lastText:
-        "A navigation bar is a navigation header that is placed at the top of the page",
-    },
-    {
-      cardImage: navbarImage,
-      title: "Navbar",
-      oneText: "Here The main Market place for developer's. It's called",
-      colorText: "Dev. Nav",
-      lastText:
-        "A navigation bar is a navigation header that is placed at the top of the page",
-    },
-    {
-      cardImage: navbarImage,
-      title: "Navbar",
-      oneText: "Here The main Market place for developer's. It's called",
-      colorText: "Dev. Nav",
-      lastText:
-        "A navigation bar is a navigation header that is placed at the top of the page",
-    },
-    {
-      cardImage: navbarImage,
-      title: "Navbar",
-      oneText: "Here The main Market place for developer's. It's called",
-      colorText: "Dev. Nav",
-      lastText:
-        "A navigation bar is a navigation header that is placed at the top of the page",
-    },
-    {
-      cardImage: navbarImage,
-      title: "Navbar",
-      oneText: "Here The main Market place for developer's. It's called",
-      colorText: "Dev. Nav",
-      lastText:
-        "A navigation bar is a navigation header that is placed at the top of the page",
-    },
-    {
-      cardImage: navbarImage,
-      title: "Navbar",
-      oneText: "Here The main Market place for developer's. It's called",
-      colorText: "Dev. Nav",
-      lastText:
-        "A navigation bar is a navigation header that is placed at the top of the page",
-    },
-  ];
-
-  // starting Component -------------------->
+  // start Component -------------------->
   return (
     <section>
       <div className="bg-pink-100 mb-6 bg-star">
@@ -72,10 +21,7 @@ const Navbars = () => {
         {CardInfo.map((cardInfo, index) => (
           <div
             key={index}
-            className="text-center max-w-sm w-full border-pink-200 border-l-2 border-t-4 shadow-xl rounded-2xl cursor-pointer m-4"
-            onClick={() => {
-              navigate("/navbars");
-            }}
+            className="text-center max-w-sm w-full border-pink-200 border-l-2 border-t-4 shadow-xl rounded-2xl m-4"
           >
             <div>
               <div className="flex justify-center">
@@ -85,10 +31,11 @@ const Navbars = () => {
                   alt="navbar"
                 />
               </div>
-              <div className="bg-gradient-to-br from-pink-200 to-blue-200 p-4 mt-6 rounded-b-2xl">
+              <div className="bg-gradient-to-br from-pink-200 to-blue-200 p-2 mt-6 rounded-b-2xl">
                 <h1 className="text-2xl sm:text-3xl capitalize font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-teal-300">
-                  {cardInfo.title}
+                  {cardInfo.title} {index + 1}
                 </h1>
+
                 <p className="text-lg text-gray-500 p-6">
                   {cardInfo.oneText}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-200 px-2">
@@ -96,6 +43,25 @@ const Navbars = () => {
                   </span>
                   {cardInfo.lastText}
                 </p>
+
+                <div>
+                  <button
+                    onClick={() => {
+                      navigate(cardInfo.navigateValueReact);
+                    }}
+                    className="m-1 bg-star px-8 py-2 text-gray-600 font-semibold text-1xl rounded-full bg-pink-500 hover:bg-pink-400 transition-colors hover:text-pink-50 tracking-wide"
+                  >
+                    React
+                  </button>
+                  <button
+                    onClick={() => {
+                      navigate(cardInfo.navigateValueHtml);
+                    }}
+                    className="m-1 bg-star px-8 py-2 text-gray-600 font-semibold text-1xl rounded-full bg-pink-500 hover:bg-pink-400 transition-colors hover:text-pink-50 tracking-wide"
+                  >
+                    HTML & CSS
+                  </button>
+                </div>
               </div>
             </div>
           </div>
