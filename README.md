@@ -1,1 +1,1 @@
-# This is a shope for WEB DEVELOPERS
+# This is a shop for WEB DEVELOPERS
