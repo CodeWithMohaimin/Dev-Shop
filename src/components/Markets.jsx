@@ -22,7 +22,7 @@ const Markets = () => {
         {MarketData.map((cardInfo, index) => (
           <div
             key={index}
-            className="text-center max-w-sm w-full border-pink-200 border-l-2 border-t-4 shadow-xl rounded-2xl cursor-pointer m-4 flex items-end"
+            className="text-center max-w-sm w-full border-pink-200 border-l-2 border-t-4 shadow-xl rounded-2xl cursor-pointer m-4 flex items-end duration-300 hover:scale-90"
             onClick={() => {
               navigate("/navbars");
             }}

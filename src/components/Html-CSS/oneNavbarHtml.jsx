@@ -2,8 +2,8 @@ import React from "react";
 
 const oneNavbarHtml = () => {
   return (
-    <section className="flex justify-center items-center flex-col mt-10 px-4">
-      <h1 className="text-center text-lg">
+    <section className="flex justify-center items-center flex-col pt-10 px-4 bg-gray-500">
+      <h1 className="text-center text-white text-lg">
         Don't worry! VS Code Prettier_ will arrange your code!
       </h1>
 
@@ -168,12 +168,6 @@ const oneNavbarHtml = () => {
           <h6>{`    background: linear-gradient(hsl(233, 26%, 24%), transparent);`}</h6>
           <p>{`  }`}</p>
           <p>{`}`}</p>
-          <p>{``}</p>
-          <p>{``}</p>
-          <p>{``}</p>
-          <p>{``}</p>
-          <p>{``}</p>
-          <p>{``}</p>
         </div>
       </section>
 
@@ -197,32 +191,8 @@ const oneNavbarHtml = () => {
           <h6>{`    navLinks.classList.add("show");`}</h6>
           <p>{`  }`}</p>
           <p>{`});`}</p>
-          <p>{``}</p>
-          <p>{``}</p>
-          <p>{``}</p>
-          <p>{``}</p>
-          <p>{``}</p>
         </div>
       </section>
-
-      {`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-          `}
     </section>
   );
 };

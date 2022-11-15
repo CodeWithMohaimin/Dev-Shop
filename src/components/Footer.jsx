@@ -13,20 +13,20 @@ const Footer = () => {
   ];
 
   return (
-    <section className="min-h-20 bg-pink-100">
+    <section className="min-h-20 bg-gray-700">
       <div className="max-w-7xl mx-auto px-4 flex justify-center lg:justify-between items-center flex-wrap">
         <div>
           <div className="flex items-center justify-center lg:justify-start">
             <Lottie className="w-20 h-20" animationData={logo} />
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 to-pink-500 text-2xl lg:text-5xl ">
-              Dev. Shop
+              Dev.Shop
             </h1>
           </div>
 
           <div className="sm:pl-6 flex flex-col ">
             <ul className="flex flex-wrap space-x-6 justify-center lg:justify-start">
               {Links.map((link, index) => (
-                <li className="py-2 text-gray-500" key={index}>
+                <li className="py-2 text-white" key={index}>
                   <Link
                     className="text-lg hover:text-teal-500 focus:text-pink-500 duration-200"
                     to={link.link}
@@ -36,7 +36,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-            <p className="text-base sm:text-lg text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-gray-500 text-center">
+            <p className="text-base sm:text-lg text-transparent text-gray-400 text-center">
               A navigation bar is a navigation header that is placed at the top
               of the page
             </p>
@@ -45,7 +45,7 @@ const Footer = () => {
         {/* right section  */}
 
         <div className="mt-10 md:mt-4 sm:pl-4 text-center lg:text-left mb-10">
-          <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-teal-500 sm:pl-2 text-center lg:text-left text-lg">
+          <h3 className="text-transparent text-pink-500 sm:pl-2 text-center lg:text-left text-lg">
             Subscribe Newsletter
           </h3>
           <input
