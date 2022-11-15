@@ -14,8 +14,8 @@
     "oneText": "Here The main Market place for developer's. It's called",
     "colorText": "Dev. Nav",
     "lastText": "A navigation bar is a navigation header that is placed at the top of the page",
-    "navigateValueReact": "/twoNavbarReact",
-    "navigateValueHtml": "/twoNavbarHtml"
+    "navigateValueReact": "/oneNavbarReact",
+    "navigateValueHtml": "/oneNavbarHtml"
   },
   {
     "cardImage": "images/network.png",
@@ -23,7 +23,7 @@
     "oneText": "Here The main Market place for developer's. It's called",
     "colorText": "Dev. Nav",
     "lastText": "A navigation bar is a navigation header that is placed at the top of the page",
-    "navigateValueReact": "/threeNavbarReact",
-    "navigateValueHtml": "/threeNavbarHtml"
+    "navigateValueReact": "/oneNavbarReact",
+    "navigateValueHtml": "/oneNavbarHtml"
   }
 ]
