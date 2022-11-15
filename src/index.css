@@ -25,3 +25,15 @@
   background-color: rgb(255, 57, 156);
   border-radius: 50px;
 }
+h6 {
+  padding-left: 40px;
+  color: rgb(136, 166, 255);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+h6:hover {
+  transform: scale(1.05);
+}
+h5 {
+  color: rgb(61, 208, 195);
+}
