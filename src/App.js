@@ -9,6 +9,7 @@ import Cards from "./components/Cards";
 import Error from "./components/Error";
 import Images from "./components/Images";
 import Footer from "./components/Footer";
+import OneNavbarHtml from "./components/Html-CSS/oneNavbarHtml";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/cards" element={<Cards />} />
         <Route path="/images" element={<Images />} />
         <Route path="*" element={<Error />} />
+        <Route path="/oneNavbarHtml" element={<OneNavbarHtml />} />
       </Routes>
       <Footer />
     </BrowserRouter>
