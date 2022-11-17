@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "author": "images/avaterone.jpg",
+    "authorName": "Rimpa",
+    "Date": "Nov 17, 2022",
+    "title": "What is Love ? How to Love someone",
+    "textIsVisible": "A navigation bar is a navigation header that is placed at the top of the page  A navigation bar is a navigation header that is placed at the top of the page...",
+    "tags": "JavaScript",
+    "lengthyTime": "1 hour read",
+    "navigateBlog": "/variable&001",
+    "bannerImage": "images/variable.png",
+    "youtubeLinks": "..."
+  },
+  {
+    "id": "2",
+    "author": "images/hridoy.jpg",
+    "authorName": "Hridoy Khan",
+    "Date": "Nov 17, 2022",
+    "title": "What is UX-UI ? How to design a UI?",
+    "textIsVisible": "A navigation bar is a navigation header that is placed at the top of the page  A navigation bar is a navigation header that is placed at the top of the page...",
+    "tags": "UI-UX",
+    "lengthyTime": "4 minute read",
+    "navigateBlog": "/variable&001",
+    "bannerImage": "images/variable.png",
+    "youtubeLinks": "..."
+  },
+  {
+    "id": "3",
+    "author": "images/mohaimin.jpg",
+    "authorName": "Mohaimin",
+    "Date": "Nov 17, 2022",
+    "title": "What is Variable ? How to write a Variable",
+    "textIsVisible": "A navigation bar is a navigation header that is placed at the top of the page  A navigation bar is a navigation header that is placed at the top of the page...",
+    "tags": "JavaScript",
+    "lengthyTime": "2 minute read",
+    "navigateBlog": "/variable&001",
+    "bannerImage": "images/variable.png",
+    "youtubeLinks": "..."
+  }
+]

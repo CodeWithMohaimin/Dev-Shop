@@ -11,7 +11,7 @@ const Links = [
   { name: "Home", link: "/" },
   { name: "Navbars", link: "/navbars" },
   { name: "Cards", link: "/cards" },
-  { name: "Images", link: "/images" },
+  { name: "Blogs", link: "/blogs" },
 ];
 
 const Navbar = () => {

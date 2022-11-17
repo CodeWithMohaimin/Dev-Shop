@@ -6,10 +6,10 @@ import Markets from "./Markets";
 const Hero = () => {
   return (
     <div>
-      <section className="min-h-60 relative bg-hero-background bg-cover lg:px-6">
-        <div className="mt-4 mx-auto max-w-7xl p-1 lg:p-2 flex lg:justify-between flex-col-reverse lg:flex-row items-center">
+      <section className="min-h-60 relative bg-hero-background bg-cover lg:px-6 bg-gray-700">
+        <div className=" mx-auto max-w-7xl p-1 lg:p-2 flex lg:justify-between flex-col-reverse lg:flex-row items-center">
           <div className="text-center lg:text-left max-w-lg w-full">
-            <h1 className="text-3xl lg:text-4xl font-semibold mb-6 text-gray-600">
+            <h1 className="text-3xl lg:text-4xl font-semibold mb-6 text-gray-300">
               <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-teal-500">
                 Dev. Shop
               </span>

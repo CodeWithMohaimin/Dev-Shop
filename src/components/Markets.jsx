@@ -7,12 +7,12 @@ const Markets = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-market mt-4  pb-60">
+    <section className="bg-market pb-60 bg-gray-700">
       <div className="flex justify-center items-center px-2 min-h-30 bg-transparent">
-        <h1 className="text-center capitalize text-4xl sm:text-6xl font-semibold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 md:border-b-2 border-purple-100 pb-2">
-          Welcome To
+        <h1 className="text-center capitalize text-4xl sm:text-6xl font-semibold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 ">
+          Dev.
           <span className="text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-orange-300 pl-2">
-            Dev. Market
+            Market
           </span>
         </h1>
       </div>
@@ -24,7 +24,7 @@ const Markets = () => {
             key={index}
             className="text-center max-w-sm w-full border-pink-200 border-l-2 border-t-4 shadow-xl rounded-2xl cursor-pointer m-4 flex items-end duration-300 hover:scale-90"
             onClick={() => {
-              navigate("/navbars");
+              navigate(cardInfo.mainNavigationPage);
             }}
           >
             <div>

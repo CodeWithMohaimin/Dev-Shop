@@ -9,15 +9,15 @@ const Navbars = () => {
   // start Component -------------------->
   return (
     <section>
-      <div className="bg-pink-100 mb-6 bg-star">
-        <div className="min-h-40 text-center flex justify-center items-center max-w-2xl mx-auto p-4">
+      <div className="bg-gray-600 pb-6 bg-star">
+        <div className="min-h-40 text-center flex justify-center items-center max-w-4xl mx-auto p-4">
           <h1 className="text-4xl font-bold sm:text-6xl text-transparent bg-clip-text bg-gradient-to-b from-pink-400 to-teal-500">
-            Choose a navbar copy those codes and use for save your time
+            Choose a Navbar copy those codes and use for save your time
           </h1>
         </div>
       </div>
 
-      <div className="flex justify-center items-center flex-wrap p-4">
+      <div className="flex justify-center items-center flex-wrap p-4 bg-gray-600">
         {CardInfo.map((cardInfo, index) => (
           <div
             key={index}
