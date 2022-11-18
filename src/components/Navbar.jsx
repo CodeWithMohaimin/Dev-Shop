@@ -22,8 +22,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto sm:px-4 bg-transparent flex items-center justify-between ">
         <div className="flex items-center">
           <Lottie className="w-20 h-20" animationData={logo} />
-          <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 to-pink-500 text-2xl lg:text-5xl ">
-            Dev. Shop
+          <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 to-pink-500 text-2xl lg:text-5xl tracking-[-2px]">
+            Dev.Shop
           </h1>
         </div>
 

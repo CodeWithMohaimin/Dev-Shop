@@ -10,7 +10,8 @@
     "lengthyTime": "1 hour read",
     "navigateBlog": "/variable&001",
     "bannerImage": "images/variable.png",
-    "youtubeLinks": "..."
+    "youtubeLinks": "...",
+    "navigateValue": "/blogs/one-blog"
   },
   {
     "id": "2",
@@ -23,7 +24,8 @@
     "lengthyTime": "4 minute read",
     "navigateBlog": "/variable&001",
     "bannerImage": "images/variable.png",
-    "youtubeLinks": "..."
+    "youtubeLinks": "...",
+    "navigateValue": "/blogs/two-blog"
   },
   {
     "id": "3",
@@ -36,6 +38,7 @@
     "lengthyTime": "2 minute read",
     "navigateBlog": "/variable&001",
     "bannerImage": "images/variable.png",
-    "youtubeLinks": "..."
+    "youtubeLinks": "...",
+    "navigateValue": "/blogs/three-blog"
   }
 ]
