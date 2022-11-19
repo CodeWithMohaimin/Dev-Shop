@@ -18,7 +18,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <section className="sticky z-50 bg-pink-100 top-0 shadow-md w-full bg-star">
+    <section className="sticky z-50 bg-gray-700 top-0 shadow-md w-full bg-star">
       <div className="max-w-7xl mx-auto sm:px-4 bg-transparent flex items-center justify-between ">
         <div className="flex items-center">
           <Lottie className="w-20 h-20" animationData={logo} />
@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={` absolute sm:static top-20 bg-star bg-cover bg-pink-50 sm:bg-transparent sm:w-auto w-full sm:pl-0 text-center sm:py-0 z-10 sm:shadow-none shadow-lg`}
+          className={` absolute sm:static top-20 bg-star bg-cover bg-gray-700 sm:bg-transparent sm:w-auto w-full sm:pl-0 text-center sm:py-0 z-10 sm:shadow-none shadow-lg`}
         >
           <ul
             className={`${
@@ -38,7 +38,7 @@ const Navbar = () => {
             {Links.map((link, index) => (
               <li className="py-2" key={index}>
                 <Link
-                  className="text-lg hover:text-teal-500 focus:text-pink-500 duration-200"
+                  className="text-lg hover:text-teal-500 focus:text-pink-500 duration-100 text-gray-200 pb-2 hover:border-b-2 "
                   to={link.link}
                 >
                   {link.name}

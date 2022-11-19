@@ -36,27 +36,27 @@ const Blogs = () => {
             </div>
             {/* two  */}
             <div>
-              <h1 className="text-2xl md:text-4xl tracking-tighter my-4 md:font-semibold hover:text-teal-400  duration-300">
+              <h1 className="text-lg sm:text-2xl md:text-4xl tracking-tighter my-2 sm:my-4 md:font-semibold hover:text-teal-400 text-gray-300 duration-300">
                 {data.title}
               </h1>
             </div>
             <div>
-              <article className="text-lg tracking-tighter pl-4 text-gray-500 hover:text-gray-400  duration-300">
+              <article className="text-xs sm:text-lg tracking-tighter sm:pl-4 text-gray-500 hover:text-gray-400  duration-300">
                 {data.textIsVisible}
               </article>
             </div>
 
-            <div className="flex justify-between mt-14">
+            <div className="flex justify-between mt-4 sm:mt-14">
               <div className="flex items-center gap-4 ">
                 <p
                   title="Show more this Tag Blogs"
-                  className="bg-pink-300 inline py-1 px-2 rounded-2xl text-gray-600 text-xs hover:scale-110 duration-100 tracking-normal"
+                  className="bg-pink-300 inline py-1 px-2 rounded-2xl text-gray-600 text-xs hover:scale-110 duration-100"
                 >
                   {data.tags}
                 </p>
-                <p className="text-sm">{data.lengthyTime}</p>
+                <p className="text-xs sm:text-sm">{data.lengthyTime}</p>
               </div>
-              <div className="flex items-center gap-4 text-2xl ">
+              <div className="flex items-center gap-2 md:gap-4 text-xl sm:text-2xl ">
                 <BsBookmarkCheckFill
                   title="Save it"
                   className="hover:text-green-300 duration-150 hover:scale-150 ease-in-out"
