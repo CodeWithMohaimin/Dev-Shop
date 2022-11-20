@@ -10,6 +10,7 @@ import Error from "./components/Error";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
 import OneNavbarHtml from "./components/Html-CSS/oneNavbarHtml";
+import Contact from "./components/Contact";
 //Blog Posts
 import OneBlog from "./components/BlogPost/OneBlog";
 import TwoBlog from "./components/BlogPost/TwoBlog";
@@ -30,6 +31,7 @@ function App() {
         <Route path="/blogs/one-blog" element={<OneBlog />} />
         <Route path="/blogs/two-blog" element={<TwoBlog />} />
         <Route path="/blogs/three-blog" element={<ThreeBlog />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

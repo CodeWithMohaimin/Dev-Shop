@@ -12,6 +12,7 @@ const Links = [
   { name: "Navbars", link: "/navbars" },
   { name: "Cards", link: "/cards" },
   { name: "Blogs", link: "/blogs" },
+  { name: "Contact", link: "/contact" },
 ];
 
 const Navbar = () => {
