@@ -1,16 +1,15 @@
 [
   {
-    "id": "1",
-    "author": "images/avaterone.jpg",
-    "authorName": "Rimpa",
+    "id": "3",
+    "author": "./Post_images/mohaimin.jpg",
+    "authorName": "Mohaimin",
     "Date": "Nov 17, 2022",
-    "title": "What is Love ? How to Love someone",
-    "textIsVisible": "A navigation bar is a navigation header that is placed at the top of the page  A navigation bar is a navigation header that is placed at the top of the page...",
+    "title": "What is Variable ? How to write a Variable",
     "tags": "JavaScript",
-    "lengthyTime": "1 hour read",
+    "lengthyTime": "2 min read",
     "navigateBlog": "/variable&001",
     "bannerImage": "images/variable.png",
     "youtubeLinks": "...",
-    "navigateValue": "/blogs/one-blog"
+    "navigateValue": "/blogs/three-blog"
   }
 ]

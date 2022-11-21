@@ -13,7 +13,7 @@ const Footer = () => {
   ];
 
   return (
-    <section className="min-h-20 bg-gray-700">
+    <section className="bg-gray-700">
       <div className="max-w-7xl mx-auto px-4 flex justify-center lg:justify-between items-center flex-wrap">
         <div>
           <div className="flex items-center justify-center lg:justify-start">

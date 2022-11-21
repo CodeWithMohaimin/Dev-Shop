@@ -1,8 +1,10 @@
 import React from "react";
 import BlogsData from "../Data/Blogs.json";
-import { BsBookmarkCheckFill } from "react-icons/bs";
-import { BsShieldFillMinus } from "react-icons/bs";
-import { BsThreeDots } from "react-icons/bs";
+import {
+  BsShieldFillMinus,
+  BsThreeDots,
+  BsBookmarkCheckFill,
+} from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 
 const Blogs = () => {

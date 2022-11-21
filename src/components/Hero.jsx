@@ -23,7 +23,7 @@ const Hero = () => {
               to understand those codes.
             </p>
 
-            <button className="transition ease-in delay-150 hover:-translate-y-1 hover:scale-110 duration-300 px-8 py-2 mt-8 font-bold text-1xl rounded-full text-pink-50 tracking-wide bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:transition-all hover:to-yellow-500">
+            <button className="transition ease-in hover:-translate-y-1 hover:scale-110 duration-150 px-8 py-2 mt-8 font-bold text-1xl rounded-full text-pink-50 tracking-wide bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
               Join Slack
             </button>
           </div>

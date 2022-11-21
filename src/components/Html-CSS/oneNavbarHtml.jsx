@@ -3,7 +3,7 @@ import React from "react";
 const oneNavbarHtml = () => {
   return (
     <section className="flex justify-center items-center flex-col pt-10 px-4 bg-gray-500">
-      <h1 className="text-center text-white text-lg">
+      <h1 className="text-center text-white text-lg min-h-20">
         Don't worry! VS Code Prettier_ will arrange your code!
       </h1>
 
@@ -172,7 +172,7 @@ const oneNavbarHtml = () => {
       </section>
 
       {/* javascript  */}
-      <section className="bg-gray-600 text-white max-w-3xl w-full my-10">
+      <section className="bg-gray-600 text-white max-w-3xl w-full my-10 min-h-20">
         <h1 className="py-4 mb-8 text-4xl font-semibold text-white bg-yellow-400 pl-6">
           {`</>`} JavaScript
         </h1>
