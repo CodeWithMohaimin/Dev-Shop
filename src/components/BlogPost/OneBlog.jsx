@@ -20,9 +20,9 @@ const OneBlog = () => {
     <div>
       {PostData.map((post) => (
         <section key={post.id} className="bg-gray-800 text-white min-h-60 ">
-          <div className="max-w-5xl bg-gray-900 w-full mx-auto flex justify-between items-center px-5 py-20">
+          <div className="max-w-5xl bg-gray-900 w-full mx-auto flex flex-col sm:flex-row gap-5 sm:gap-0 justify-between items-center px-5 py-20 duration-500">
             {/* one  */}
-            <section className="flex gap-2">
+            <section className="flex gap-2 flex-col sm:flex-row text-center sm:text-left items-center sm:items-start">
               <div>
                 <img
                   className="sm:w-[48px] sm:h-[48px] w-[38px] h-[38px] object-cover overflow-hidden rounded-full duration-200"
@@ -79,7 +79,7 @@ const OneBlog = () => {
           </div>
           {/* // actual post section  */}
           <section className="max-w-5xl bg-gray-900 w-full mx-auto px-5 pb-10">
-            <h1 className="text-2xl sm:text-4xl font-semibold text-gray-300">
+            <h1 className="text-xl sm:text-4xl font-semibold text-gray-300">
               {post.title}
             </h1>
             <a
