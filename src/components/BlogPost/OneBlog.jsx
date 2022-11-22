@@ -1,18 +1,18 @@
 import React from "react";
 import PostData from "./post.json";
-import author from "./Post_images/mohaimin.jpg";
+import author from "./Post_images/mohaimins.jpg";
 import bannerImage from "./Post_images/bannerImage.png";
 import variableImage from "./Post_images/variable.png";
 import {
   BsPlayCircle,
   BsDot,
   BsTwitter,
-  BsFacebook,
   BsLinkedin,
   BsLink,
   BsThreeDots,
   BsBookmarkPlusFill,
   BsYoutube,
+  BsGithub,
 } from "react-icons/bs";
 
 const OneBlog = () => {
@@ -25,7 +25,7 @@ const OneBlog = () => {
             <section className="flex gap-2">
               <div>
                 <img
-                  className="sm:w-[48px] sm:h-[48px] w-[38px] h-[38px] rounded-full duration-200"
+                  className="sm:w-[48px] sm:h-[48px] w-[38px] h-[38px] object-cover overflow-hidden rounded-full duration-200"
                   src={author}
                   alt={post.authorName}
                 />
@@ -48,10 +48,27 @@ const OneBlog = () => {
             {/* two  */}
             <section className="flex gap-12">
               <div className="flex text-xl gap-5 ">
-                <BsTwitter className="hover:scale-125 hover:text-blue-400 cursor-pointer duration-100" />
-                <BsFacebook className="hover:scale-125 hover:text-green-500 cursor-pointer duration-100" />
-                <BsLinkedin className="hover:scale-125 hover:text-red-400 cursor-pointer duration-100" />
-                <BsLink className="hover:scale-125 hover:text-pink-200 cursor-pointer duration-100" />
+                <a
+                  href="https://twitter.com/DevMohaimin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <BsTwitter className="hover:scale-125 hover:text-blue-400 cursor-pointer duration-100" />
+                </a>
+                <a
+                  href="https://github.com/ProgrammerMohaimin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <BsGithub className="hover:scale-125 hover:text-blue-400 cursor-pointer duration-100" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/programmermohaimin/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <BsLinkedin className="hover:scale-125 hover:text-red-400 cursor-pointer duration-100" />
+                </a>
               </div>
 
               <div className="flex text-xl gap-2">
@@ -66,7 +83,7 @@ const OneBlog = () => {
               {post.title}
             </h1>
             <a
-              href="https://youtube.com/programmermohaimin"
+              href={post.youtubeLinks}
               target="_blank"
               rel="noreferrer"
               className="mt-4 text-pink-300 cursor-pointer inline-block"

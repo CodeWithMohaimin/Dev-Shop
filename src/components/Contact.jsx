@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import author from "./BlogPost/Post_images/mohaimins.jpg";
+import { BsDot } from "react-icons/bs";
 
 export const Contact = () => {
   const form = useRef();
@@ -26,7 +28,31 @@ export const Contact = () => {
   };
 
   return (
-    <div className="min-h-60 flex justify-center items-center bg-gray-900">
+    <div className="min-h-60 flex flex-col justify-center items-center bg-gray-900">
+      <div className="h-20 w-full mb-10">
+        <div className="max-w-xs w-full h-full mx-auto flex items-center justify-between">
+          <div>
+            <h1 className="text-4xl text-gray-100">To</h1>
+          </div>
+          <div className=" w-32 rounded-full h-1">
+            <BsDot className="text-white inline" />
+            <BsDot className="text-white inline" />
+            <BsDot className="text-white inline" />
+            <BsDot className="text-white inline" />
+            <BsDot className="text-white inline" />
+            <BsDot className="text-white inline" />
+            <BsDot className="text-white inline" />
+            <BsDot className="text-white inline" />
+          </div>
+          <div>
+            <img
+              src={author}
+              alt="author"
+              className="w-[48px] h-[48px] rounded-full"
+            />
+          </div>
+        </div>
+      </div>
       <form
         className="flex flex-col max-w-xl mx-auto bg-gray-700 p-10 w-full rounded-xl"
         ref={form}

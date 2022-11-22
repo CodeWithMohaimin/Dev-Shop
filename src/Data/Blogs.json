@@ -1,44 +1,16 @@
 [
   {
     "id": "1",
-    "author": "images/avaterone.jpg",
-    "authorName": "Rimpa",
-    "Date": "Nov 17, 2022",
-    "title": "What is Love ? How to Love someone",
-    "textIsVisible": "A navigation bar is a navigation header that is placed at the top of the page  A navigation bar is a navigation header that is placed at the top of the page...",
-    "tags": "JavaScript",
-    "lengthyTime": "1 hour read",
-    "navigateBlog": "/variable&001",
-    "bannerImage": "images/variable.png",
-    "youtubeLinks": "...",
-    "navigateValue": "/blogs/one-blog"
-  },
-  {
-    "id": "2",
-    "author": "images/hridoy.jpg",
-    "authorName": "Hridoy Khan",
-    "Date": "Nov 17, 2022",
-    "title": "What is UX-UI ? How to design a UI?",
-    "textIsVisible": "A navigation bar is a navigation header that is placed at the top of the page  A navigation bar is a navigation header that is placed at the top of the page...",
-    "tags": "UI-UX",
-    "lengthyTime": "4 minute read",
-    "navigateBlog": "/variable&001",
-    "bannerImage": "images/variable.png",
-    "youtubeLinks": "...",
-    "navigateValue": "/blogs/two-blog"
-  },
-  {
-    "id": "3",
-    "author": "images/mohaimin.jpg",
+    "author": "images/mohaimins.jpg",
     "authorName": "Mohaimin",
     "Date": "Nov 17, 2022",
-    "title": "What is Variable ? How to write a Variable",
-    "textIsVisible": "A navigation bar is a navigation header that is placed at the top of the page  A navigation bar is a navigation header that is placed at the top of the page...",
+    "title": "ভেরিয়েবল কি ? জাভাস্ক্রিপ্টে ভেরিয়েবল কিভাবে লিখতে হয় ?",
+    "textIsVisible": "Variable মূলত একটি স্টোরেজ সিস্টেম এখানে বিভিন্ন ধরনের ডাটা স্টোর করা হয়। জাভাস্ক্রিপ্টে দুই ধরনের ভেরিয়েবল আছে। 1. local variable 2.Global variable এই দুই ধরনের ভেরিয়েবলের পরিচিতি পরে জানলেও হবে। তার আগে জেনে নিই ভেরিয়েবল কিভাবে লিখতে হয় বা ডিক্লেয়ার করতে হয়। ভেরিয়েবল ডিক্লেয়ার করা বা লেখার কয়েকটা নিয়ম আছে যেমন",
     "tags": "JavaScript",
     "lengthyTime": "2 minute read",
     "navigateBlog": "/variable&001",
     "bannerImage": "images/variable.png",
-    "youtubeLinks": "...",
-    "navigateValue": "/blogs/three-blog"
+    "youtubeLinks": "https://www.youtube.com/programmermohaimin",
+    "navigateValue": "/blogs/one-blog"
   }
 ]

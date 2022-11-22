@@ -37,9 +37,9 @@ const Navbar = () => {
             } sm:flex sm:gap-6 w-full`}
           >
             {Links.map((link, index) => (
-              <li className="py-2" key={index}>
+              <li className="py-2 " key={index}>
                 <Link
-                  className="text-lg hover:text-teal-500 focus:text-pink-500 duration-100 text-gray-200 pb-2 hover:border-b-2 "
+                  className="text-lg  focus:text-pink-400 hover:text-teal-500 duration-100 text-gray-200 pb-2 hover:border-b-2 focus:border-b-2"
                   to={link.link}
                 >
                   {link.name}
