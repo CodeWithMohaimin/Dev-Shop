@@ -12,6 +12,7 @@ import {
   BsLink,
   BsThreeDots,
   BsBookmarkPlusFill,
+  BsYoutube,
 } from "react-icons/bs";
 
 const OneBlog = () => {
@@ -64,6 +65,18 @@ const OneBlog = () => {
             <h1 className="text-2xl sm:text-4xl font-semibold text-gray-300">
               {post.title}
             </h1>
+            <a
+              href="https://youtube.com/programmermohaimin"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-4 text-pink-300 cursor-pointer inline-block"
+            >
+              <BsYoutube className="text-pink-400 text-2xl sm:text-4xl inline" />{" "}
+              Watch Video on YouTube{" "}
+              <span>
+                <BsLink className="inline" />
+              </span>
+            </a>
             <div className="my-10">
               <img src={bannerImage} alt="banner" className="rounded-xl" />
             </div>
