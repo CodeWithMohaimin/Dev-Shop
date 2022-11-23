@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  list-style: none;
   font-family: "Poppins", sans-serif;
 }
 @tailwind base;
