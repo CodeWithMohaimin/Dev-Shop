@@ -1,0 +1,14 @@
+[
+  {
+    "id": "2",
+    "author": "images/mohaimins.jpg",
+    "authorName": "Mohaimin",
+    "Date": "Nov 24, 2022",
+    "title": "Understand Type Coercion in Javascript",
+    "textIsVisible": "Type Coercion, নামটা যতটা জটিল বিষয়টা ততটাও জটিল নয়। সহজ বাংলা ভাষায় বললে, একটা ডাটা টাইপ থেকে অন্য আর একটি ডাটা টাইপে কনভার্ট করার প্রসেসকেই বলে Type Coercion। আর এই কাজটা আমরা প্রথম থেকেই করে আসছি। কখনো নিজের ইচ্ছেই একটা নাম্বারকে স্ট্রিং বা বুলিয়ান এ কনভার্ট করছি, আবার কখনো স্ট্রিং কে নাম্বার এ কনভার্ট করছি...",
+    "tags": "#JavaScript",
+    "lengthyTime": "16 minute read",
+    "youtubeLinks": "https://www.youtube.com/watch?v=ffLH0bRcJts",
+    "navigateValue": "/blogs/type-coercion"
+  }
+]

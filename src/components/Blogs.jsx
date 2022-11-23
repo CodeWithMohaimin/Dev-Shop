@@ -52,7 +52,7 @@ const Blogs = () => {
               <div className="flex items-center gap-4 ">
                 <p
                   title="Show more this Tag Blogs"
-                  className="bg-pink-300 inline py-1 px-2 rounded-2xl text-gray-600 text-xs hover:scale-110 duration-100"
+                  className="bg-gray-600 inline py-1 px-2 rounded text-pink-300 text-xs hover:scale-110 duration-100"
                 >
                   {data.tags}
                 </p>

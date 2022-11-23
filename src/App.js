@@ -12,9 +12,9 @@ import Footer from "./components/Footer";
 import OneNavbarHtml from "./components/Html-CSS/oneNavbarHtml";
 import Contact from "./components/Contact";
 //Blog Posts
-import OneBlog from "./components/BlogPost/OneBlog";
-import TwoBlog from "./components/BlogPost/TwoBlog";
-import ThreeBlog from "./components/BlogPost/ThreeBlog";
+import OneBlog from "./components/BlogPost/one-post/OneBlog";
+import TwoBlog from "./components/BlogPost/Two-Post/TwoBlog";
+import ThreeBlog from "./components/BlogPost/Three-Post/ThreeBlog";
 
 function App() {
   return (
@@ -28,8 +28,8 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="*" element={<Error />} />
         <Route path="/oneNavbarHtml" element={<OneNavbarHtml />} />
-        <Route path="/blogs/one-blog" element={<OneBlog />} />
-        <Route path="/blogs/two-blog" element={<TwoBlog />} />
+        <Route path="/blogs/variable-defined" element={<OneBlog />} />
+        <Route path="/blogs/type-coercion" element={<TwoBlog />} />
         <Route path="/blogs/three-blog" element={<ThreeBlog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import author from "./BlogPost/Post_images/mohaimins.jpg";
+import author from "./BlogPost/one-post/Post_images/mohaimins.jpg";
 import { BsDot } from "react-icons/bs";
 
 export const Contact = () => {

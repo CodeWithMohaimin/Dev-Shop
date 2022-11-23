@@ -5,12 +5,25 @@
     "authorName": "Mohaimin",
     "Date": "Nov 17, 2022",
     "title": "ভেরিয়েবল কি ? জাভাস্ক্রিপ্টে ভেরিয়েবল কিভাবে লিখতে হয় ?",
-    "textIsVisible": "Variable মূলত একটি স্টোরেজ সিস্টেম এখানে বিভিন্ন ধরনের ডাটা স্টোর করা হয়। জাভাস্ক্রিপ্টে দুই ধরনের ভেরিয়েবল আছে। 1. local variable 2.Global variable এই দুই ধরনের ভেরিয়েবলের পরিচিতি পরে জানলেও হবে। তার আগে জেনে নিই ভেরিয়েবল কিভাবে লিখতে হয় বা ডিক্লেয়ার করতে হয়। ভেরিয়েবল ডিক্লেয়ার করা বা লেখার কয়েকটা নিয়ম আছে যেমন",
-    "tags": "JavaScript",
+    "textIsVisible": "Variable মূলত একটি স্টোরেজ সিস্টেম এখানে বিভিন্ন ধরনের ডাটা স্টোর করা হয়। জাভাস্ক্রিপ্টে দুই ধরনের ভেরিয়েবল আছে। 1. local variable 2.Global variable এই দুই ধরনের ভেরিয়েবলের পরিচিতি পরে জানলেও হবে। তার আগে জেনে নিই ভেরিয়েবল কিভাবে লিখতে হয় বা ডিক্লেয়ার করতে হয়। ভেরিয়েবল ডিক্লেয়ার করা বা লেখার কয়েকটা নিয়ম আছে যেমন...",
+    "tags": "#JavaScript",
     "lengthyTime": "2 minute read",
     "navigateBlog": "/variable&001",
     "bannerImage": "images/variable.png",
     "youtubeLinks": "https://www.youtube.com/programmermohaimin",
-    "navigateValue": "/blogs/one-blog"
+    "navigateValue": "/blogs/variable-defined"
+  },
+  {
+    "id": "2",
+    "author": "images/mohaimins.jpg",
+    "authorName": "Mohaimin",
+    "Date": "Nov 24, 2022",
+    "title": "Understand Type Coercion in Javascript",
+    "textIsVisible": "Type Coercion, নামটা যতটা জটিল বিষয়টা ততটাও জটিল নয়। সহজ বাংলা ভাষায় বললে, একটা ডাটা টাইপ থেকে অন্য আর একটি ডাটা টাইপে কনভার্ট করার প্রসেসকেই বলে Type Coercion। আর এই কাজটা আমরা প্রথম থেকেই করে আসছি। কখনো নিজের ইচ্ছেই একটা নাম্বারকে স্ট্রিং বা বুলিয়ান এ কনভার্ট করছি, আবার কখনো স্ট্রিং কে নাম্বার এ কনভার্ট করছি...",
+    "tags": "#JavaScript",
+    "bannerImage": "images/coercion.png",
+    "lengthyTime": "16 minute read",
+    "youtubeLinks": "https://www.youtube.com/programmermohaimin",
+    "navigateValue": "/blogs/type-coercion"
   }
 ]
