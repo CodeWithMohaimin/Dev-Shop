@@ -1,3 +1,3 @@
 # This is a shop for WEB DEVELOPERS
 
-[mohaimin](https://devshope.netlify.app)
+[Live Preview -](https://devshope.netlify.app)
