@@ -20,6 +20,7 @@ export const Contact = () => {
         (result) => {
           console.log(result.text);
           e.target.reset();
+          alert("Success!");
         },
         (error) => {
           console.log(error.text);
@@ -60,6 +61,7 @@ export const Contact = () => {
       >
         <label className="p-1 text-gray-200 text-lg">Name</label>
         <input
+          required
           placeholder="Type your Name"
           className="border-none p-2 outline-none mb-4 rounded-md"
           type="text"
@@ -67,6 +69,7 @@ export const Contact = () => {
         />
         <label className="p-1 text-gray-200 text-lg">Email</label>
         <input
+          required
           placeholder="Type your Email"
           className="border-none p-2 outline-none mb-4 rounded-md"
           type="email"
@@ -74,6 +77,7 @@ export const Contact = () => {
         />
         <label className="p-1 text-gray-200 text-lg">Message</label>
         <textarea
+          required
           className="border-none p-2 outline-none mb-4 min-h-20 rounded-md"
           placeholder="Say, What you want"
           name="message"
