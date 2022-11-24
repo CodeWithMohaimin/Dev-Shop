@@ -18,12 +18,12 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result.text); //if want to see console output
           e.target.reset();
           alert("Success!");
         },
         (error) => {
-          console.log(error.text);
+          console.log(error.text); //if error you wil find in console
         }
       );
   };
@@ -54,6 +54,9 @@ export const Contact = () => {
           </div>
         </div>
       </div>
+      <h1 className="text-gray-400 text-lg sm:text-3xl font-semibold mb-6 text-center">
+        Please Fill this form in a decent manner
+      </h1>
       <form
         className="flex flex-col max-w-xl mx-auto bg-gray-700 p-10 w-full rounded-xl"
         ref={form}
