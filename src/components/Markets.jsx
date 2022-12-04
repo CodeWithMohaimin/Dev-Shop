@@ -7,7 +7,7 @@ const Markets = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-market pb-60 bg-gray-700">
+    <section className="bg-market pb-10 bg-gray-700">
       <div className="flex justify-center items-center px-2 min-h-30 bg-transparent">
         <h1 className="text-center capitalize text-4xl sm:text-6xl font-semibold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 ">
           Dev.
@@ -36,11 +36,11 @@ const Markets = () => {
                 />
               </div>
 
-              <div className="bg-gradient-to-br from-pink-200 to-blue-200 p-4 rounded-b-2xl">
+              <div className="bg-gradient-to-br from-pink-200 to-blue-200 p-2 sm:p-4 rounded-b-2xl">
                 <h1 className="text-2xl sm:text-3xl capitalize font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-teal-300">
                   {cardInfo.title}
                 </h1>
-                <p className="text-lg text-gray-500 p-2">
+                <p className="text-base sm:text-lg text-gray-500 p-1 sm:p-2 pb-6">
                   {cardInfo.oneText}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-200 px-2">
                     {cardInfo.colorText}

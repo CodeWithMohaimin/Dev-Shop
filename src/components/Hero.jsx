@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="text-center lg:text-left max-w-lg w-full">
             <h1 className="text-3xl lg:text-4xl font-semibold mb-6 text-gray-300">
               <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-teal-500">
-                Dev. Shop
+                Dev Tools
               </span>
               <br /> for developer's to solve their Problems
             </h1>

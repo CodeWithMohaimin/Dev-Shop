@@ -9,8 +9,8 @@ import { FaMoon } from "react-icons/fa";
 
 const Links = [
   { name: "Home", link: "/" },
-  { name: "Navbars", link: "/navbars" },
-  { name: "Cards", link: "/cards" },
+  { name: "10+Nav", link: "/navbars" },
+  { name: "50+Cards", link: "/cards" },
   { name: "Blogs", link: "/blogs" },
   { name: "Contact", link: "/contact" },
 ];
